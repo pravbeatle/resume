@@ -1,13 +1,13 @@
 {
-  "name": "app",
+  "name": "Resume",
   "author": {
-    "name": "Dwayne Love",
-    "email": "dwaynelavon@gmail.com",
-    "url": "dwaynelavon.com"
+    "name": "Praveen Selvaraj",
+    "email": "",
+    "url": ""
   },
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://pravbeatle.github.io/resume",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "material-ui": "^1.0.0-beta.18",
