@@ -18,10 +18,6 @@ const ResumeData = {
       label: 'LinkedIn',
       link: 'https://www.linkedin.com/in/pravcfc/'
     },
-    {
-      label: 'Link 3',
-      link: '<Link 3 Address>'
-    }
   ],
 
   educationList: [
@@ -78,8 +74,12 @@ const ResumeData = {
       company: 'Deep Learning',
       projects: [
         {
+          id: 0,
+          value: `Trained a Deep Neural Network to drive a car around a simulated track.`
+        },
+        {
           id: 1,
-          value: `Neural network that takes in various features to predict bike rentals.`
+          value: `Sequence to sequence network for English to French translation.`
         },
         {
           id: 2,
@@ -87,7 +87,7 @@ const ResumeData = {
         },
         {
           id: 3,
-          value: `Convolutional neural network that to classifies CIFAR-10 images.`
+          value: `Using DCGAN on the CelebA dataset to generate images of novel and realistic human faces.`
         },
         {
           id: 4,
@@ -95,11 +95,7 @@ const ResumeData = {
         },
         {
           id: 5,
-          value: `Sequence to sequence network for English to French translation.`
-        },
-        {
-          id: 6,
-          value: `Using DCGAN on the CelebA dataset to generate images of novel and realistic human faces.`
+          value: `Neural network that takes in various features to predict bike rentals.`
         },
       ] // end projects array
     }, // end project object

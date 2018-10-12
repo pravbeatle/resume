@@ -9,6 +9,8 @@ export default ({tabLabels, value, handleChange}) =>
       indicatorColor="primary"
       textColor="primary"
       fullWidth
+      scrollable
+      scrollButtons="auto"
     >
       {tabLabels.map(label => <Tab label={label} key={label} />)}
     </Tabs>
