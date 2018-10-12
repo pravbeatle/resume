@@ -31,13 +31,25 @@ const ResumeData = {
   ],
 
   notablesList: [
-    'Top 5 picks to look out for, from 124 startups in 6 countries in Asia. Sep 2016', 
-    'One of top 19 out of 300+ teams in Save the Hacker, hackathon by FreshDesk. May 2017',
+    {
+      label: 'Top 5 picks to look out for, from 124 startups in 6 countries in Asia. Sep 2016',
+      link: ''
+    }, 
+    {
+      label: 'One of top 19 out of 300+ teams in Save the Hacker, hackathon by FreshDesk. May 2017',
+      link: ''
+    }
   ],
 
   volunteeringList: [
-    'Core Member of SAAS and Tech Lead, for cultural festival Techofes. 2015', 
-    'Students notehouse, built for ease of sharing educational resources. 2015',
+    {
+      label: 'Core Member of SAAS and Tech Lead, for cultural festival Techofes. 2015',
+      link: ''
+    }, 
+    {
+      label: 'Students notehouse, built for ease of sharing educational resources. 2015',
+      link: ''
+    },
   ],
 
   projectsList: [
@@ -46,7 +58,8 @@ const ResumeData = {
       projects: [
         {
           id: 1,
-          value: ` Robotic arm with six degrees of freedom to perform pick and place actions using Inverse Kinematics.`
+          value: ` Robotic arm with six degrees of freedom to perform pick and place actions using Inverse Kinematics.`,
+          link: ''
         },
         {
           id: 2,
