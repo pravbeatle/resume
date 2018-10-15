@@ -33,18 +33,18 @@ const ResumeData = {
   notablesList: [
     {
       label: 'Top 5 picks to look out for, from 124 startups in 6 countries in Asia. Sep 2016',
-      link: ''
+      link: 'https://www.techinasia.com/here-are-the-124-startups-exhibiting-in-bangalore-infographic'
     }, 
     {
       label: 'One of top 19 out of 300+ teams in Save the Hacker, hackathon by FreshDesk. May 2017',
-      link: ''
+      link: 'https://www.youtube.com/watch?v=00-Tq1aF0kA'
     }
   ],
 
   volunteeringList: [
     {
-      label: 'Core Member of SAAS and Tech Lead, for cultural festival Techofes. 2015',
-      link: ''
+      label: 'Core Member of Students Association and Tech Lead, for cultural festival Techofes. 2015',
+      link: 'https://en.wikipedia.org/wiki/Techofes'
     }, 
     {
       label: 'Students notehouse, built for ease of sharing educational resources. 2015',
@@ -59,27 +59,32 @@ const ResumeData = {
         {
           id: 1,
           value: ` Robotic arm with six degrees of freedom to perform pick and place actions using Inverse Kinematics.`,
-          link: ''
+          link: 'https://github.com/pravbeatle/Robotic-Arm-Pick---Place'
         },
         {
           id: 2,
-          value: ` Training a deep neural network to identify and track a target in simulation and then issue commands to a drone to follow that target.`
+          value: ` Training a deep neural network to identify and track a target in simulation and then issue commands to a drone to follow that target.`,
+          link: 'https://github.com/pravbeatle/Follow-Me-DL'
         },
         {
           id: 3,
-          value: `Using Monte Carlo Localization algorithm in ROS in conjunction with sensor data and a map of the world to estimate a mobile robot’s position and orientation.`
+          value: `Using Monte Carlo Localization algorithm in ROS in conjunction with sensor data and a map of the world to estimate a mobile robot’s position and orientation.`,
+          link: 'https://github.com/pravbeatle/Monte-Carlo-Localization'
         },
         {
           id: 4,
-          value: `Using a ROS SLAM package and simulated sensor data to create an agent that can both map the world around it and localize within it.`
+          value: `Using a ROS SLAM package and simulated sensor data to create an agent that can both map the world around it and localize within it.`,
+          link: ''
         },
         {
           id: 5,
-          value: `Train a robotic arm using Deep Q-netork to recognize an object from a set and draft a viable path to pick and place it.`
+          value: `Train a robotic arm using Deep Q-netork to recognize an object from a set and draft a viable path to pick and place it.`,
+          link: 'https://github.com/pravbeatle/DeepRL-Robotic-Arm'
         },
         {
           id: 6,
-          value: `Build a home service robot simulation that can map, localize, and navigate in a given environment.`
+          value: `Build a home service robot simulation that can map, localize, and navigate in a given environment.`,
+          link: ''
         },
       ]
     },
@@ -88,27 +93,33 @@ const ResumeData = {
       projects: [
         {
           id: 0,
-          value: `Trained a Deep Neural Network to drive a car around a simulated track.`
+          value: `Trained a Deep Neural Network to drive a car around a simulated track.`,
+          link: 'https://github.com/pravbeatle/Behavior-Cloning'
         },
         {
           id: 1,
-          value: `Sequence to sequence network for English to French translation.`
+          value: `Sequence to sequence network for English to French translation.`,
+          link: 'https://github.com/pravbeatle/UdacityDLNDProjects/tree/master/Term%203/term%203%20language%20translation'
         },
         {
           id: 2,
-          value: `Convolutional neural network that to classifies CIFAR-10 images.`
+          value: `Convolutional neural network that to classifies CIFAR-10 images.`,
+          link: 'https://github.com/pravbeatle/UdacityDLNDProjects/tree/master/Term%202'
         },
         {
           id: 3,
-          value: `Using DCGAN on the CelebA dataset to generate images of novel and realistic human faces.`
+          value: `Using DCGAN on the CelebA dataset to generate images of novel and realistic human faces.`,
+          link: 'https://github.com/pravbeatle/UdacityDLNDProjects/tree/master/Term%204'
         },
         {
           id: 4,
-          value: `Recurrent neural network trained on scripts from The Simpson's to generate new scripts.`
+          value: `Recurrent neural network trained on scripts from The Simpson's to generate new scripts.`,
+          link: 'https://github.com/pravbeatle/UdacityDLNDProjects/tree/master/Term%203/term%203%20tv%20script%20generation'
         },
         {
           id: 5,
-          value: `Neural network that takes in various features to predict bike rentals.`
+          value: `Neural network that takes in various features to predict bike rentals.`,
+          link: 'https://github.com/pravbeatle/UdacityDLNDProjects/tree/master/Term%201'
         },
       ] // end projects array
     }, // end project object
@@ -117,11 +128,13 @@ const ResumeData = {
       projects: [
         {
           id: 1,
-          value: `A Raspberry Pi based facial recognition door openner.`
+          value: `A Raspberry Pi based facial recognition door openner.`,
+          link: 'https://github.com/pravbeatle/facepi'
         },
         {
           id: 2,
-          value: `A VR enabled news browsing app.`
+          value: `A VR enabled news browsing app.`,
+          link: 'https://github.com/zekedran/zeus'
         },
       ] // end projects array
     } // end project object
