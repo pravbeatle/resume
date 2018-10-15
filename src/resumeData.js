@@ -74,7 +74,7 @@ const ResumeData = {
         {
           id: 4,
           value: `Using a ROS SLAM package and simulated sensor data to create an agent that can both map the world around it and localize within it.`,
-          link: ''
+          link: 'https://github.com/pravbeatle/Map-My-World'
         },
         {
           id: 5,
@@ -84,7 +84,7 @@ const ResumeData = {
         {
           id: 6,
           value: `Build a home service robot simulation that can map, localize, and navigate in a given environment.`,
-          link: ''
+          link: 'https://github.com/pravbeatle/Home-Service-Bot'
         },
       ]
     },
