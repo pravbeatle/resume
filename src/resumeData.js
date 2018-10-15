@@ -1,4 +1,4 @@
-import avatar from './images/avatar.jpg';
+import avatar from './images/LIC.png';
 
 const ResumeData = {
   myName: 'Praveen Selvaraj',
