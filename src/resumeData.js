@@ -141,18 +141,18 @@ const ResumeData = {
   ], // end experienceList array
 
   experienceList: [
-    {
-      company: 'Software Engineering Intern',
+  {
+      company: 'Software Engineer',
       projects: [
         {
           id: 1,
-          value: `Codebrahma Technologies Pvt Ltd, Bangalore, India`
+          value: `LiftOff Software LLP, Bangalore, India`
         },
         {
           id: 2,
-          value: `May 2014 - Aug 2014`
+          value: `Feb 2017 - Dec 2017`
         },
-      ]
+      ] // end projects array
     },
     {
       company: 'Co-Founder, CTO',
@@ -166,20 +166,20 @@ const ResumeData = {
           value: `July 2015 - Jun 2016`
         },
       ]
-    }, 
+    },
     {
-      company: 'Software Engineer',
+      company: 'Software Engineering Intern',
       projects: [
         {
           id: 1,
-          value: `LiftOff Software LLP, Bangalore, India`
+          value: `Codebrahma Technologies Pvt Ltd, Bangalore, India`
         },
         {
           id: 2,
-          value: `Feb 2017 - Dec 2017`
+          value: `May 2014 - Aug 2014`
         },
-      ] // end projects array
-    } // end project object
+      ]
+    } // end project object 
   ] // end experienceList array
 
 } // end ResumeData
