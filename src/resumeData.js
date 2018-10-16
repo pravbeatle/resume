@@ -32,7 +32,7 @@ const ResumeData = {
 
   notablesList: [
     {
-      label: 'Top 5 picks to look out for, from 124 startups in 6 countries in Asia. Sep 2016',
+      label: 'Top 5 picks to look out for(Foodmash), from 124 startups in 6 countries in Asia. Sep 2016',
       link: 'https://www.techinasia.com/here-are-the-124-startups-exhibiting-in-bangalore-infographic'
     }, 
     {
